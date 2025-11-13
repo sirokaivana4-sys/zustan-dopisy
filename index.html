@@ -1,49 +1,58 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="cs">
 <head>
-  <meta charset="utf-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Dopisy, které nikdy neměl odeslat</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="style.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600&family=Playfair+Display:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+
 </head>
-
 <body>
-  <!-- Hudba na pozadí -->
-  <audio id="bgm" src="music/whereyourheartis.mp3" autoplay loop></audio>
 
-  <header>
-    <h1>Dopisy, které nikdy neměl odeslat</h1>
-    <p class="sub">Thorn — Larysa</p>
-  </header>
+<header>
+  <h1>Dopisy, které nikdy neměl odeslat</h1>
+  <div class="sub">Thorn — Larysa</div>
+  <div class="intro"><em>„Jsou slova, která se bojíš říct nahlas. Tohle jsou ta moje.“ — T.</em></div>
+</header>
 
-  <main>
+<main>
 
-    <section class="intro">
-      <p><em>„Jsou slova, která se bojíš říct nahlas. Tohle jsou ta moje.“ — T.</em></p>
-    </section>
+  <div class="timeline">
 
-    <!-- Dopis 1 -->
+    <!-- DOPIS 01 -->
     <section class="letter">
       <h2>Dopis 01</h2>
       <p>
-        (zde vložíš text dopisu 01 — normální textový blok,
-        krásně se zobrazí na mobilu i na počítači)
+        Sem vložíš text prvního dopisu. Normální textový blok, krásně čitelný na mobilu i na počítači.
       </p>
-      <a href="letters/01_dopis_T.pdf" class="download" download>Stáhnout jako PDF</a>
+      <p>
+        Můžeš použít více odstavců, oddělených prázdným řádkem.
+      </p>
+      <a class="download" href="letters/01_dopis_T.pdf" download>Stáhnout jako PDF</a>
     </section>
 
-    <!-- Dopisy přidáš zkopírováním ↑ -->
-
-    <section class="download-music">
-      <a href="music/whereyourheartis.mp3" download>Stáhnout píseň „Where Your Heart Is“</a>
+    <!-- DOPIS 02 (zatím prázdný, až jej vytvoříš, jen přidáš další blok stejného typu)
+    <section class="letter">
+      <h2>Dopis 02</h2>
+      <p>Sem vložíš dopis číslo dva…</p>
+      <a class="download" href="letters/02_dopis_T.pdf" download>Stáhnout jako PDF</a>
     </section>
+    -->
 
-  </main>
+  </div>
 
-  <footer>
-    <p>© ZŮSTAŇ — soukromé vyznání. Web vytvořen pro čtenáře.</p>
-  </footer>
+  <section class="download-music">
+    <a href="music/whereyourheartis.mp3" download>Stáhnout píseň „Where Your Heart Is“</a>
+  </section>
+
+</main>
+
+<footer>
+  &copy; 2025 — Zůstaň  
+</footer>
 
 </body>
 </html>
